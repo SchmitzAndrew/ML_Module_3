@@ -31,7 +31,6 @@ for d in dates:
         last_reply.append(d)
     index += 1
 
-#inefficent method but it just works  ¯\_(ツ)_/¯
 
 #delete first and turn to text
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\'\“\”\’\|@,;]')
@@ -46,31 +45,22 @@ posts.pop(0)
 cleaned_posts = [clean(t) for t in posts]
 
 category.pop(0)
-cleaned_categories = [clean(t) for t in posts]
+cleaned_categories = [clean(t) for t in category]
 
 date_posted.pop(0)
-cleaned_dates = []
-for t in date_posted:
-    cleaned_dates.append(t.text)
+cleaned_dates = [clean(t) for t in date_posted]
 
 last_reply.pop(0)
-cleaned_last_reply = []
-for t in last_reply:
-    cleaned_last_reply.append(t.text)
+cleaned_last_reply = [clean(t) for t in last_reply]
 
 replies.pop(0)
-cleaned_replies = []
-for t in replies:
-    cleaned_replies.append(t.text)
+cleaned_replies = [clean(t) for t in replies]
 
 user.pop(0)
-cleaned_users = []
-for t in user:
-    cleaned_users.append(t.text)
+cleaned_users = [clean(t) for t in user]
 
 with open('data.csv', mode= 'w', encoding='utf-8') as csv_file:
     writer = csv.writer(csv_file)
-
     writer.writerows(zip(cleaned_posts, cleaned_categories, cleaned_dates, cleaned_last_reply, cleaned_replies, cleaned_users))
 
 load_data()
