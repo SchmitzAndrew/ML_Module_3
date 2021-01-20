@@ -1,2 +1,10 @@
 selenium
 pandas
+sklearn
+nltk
+gensim
+numpy
+logging
+matplotlib
+
+
