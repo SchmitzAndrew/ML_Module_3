@@ -63,6 +63,8 @@ with open('data.csv', mode= 'w', encoding='utf-8') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerows(zip(cleaned_posts, cleaned_categories, cleaned_dates, cleaned_last_reply, cleaned_replies, cleaned_users))
 
+driver.close()
+
 load_data()
 
-driver.close()
+

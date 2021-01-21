@@ -1,0 +1,7 @@
+
+vpython:S117""XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(΄Ϋƒ8€ς‘τρ.
+upython:S117""WRename this local variable "Y_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(΄Ϋƒ8€ς‘τρ.
+Npython:S1481"/Remove the unused local variable "accuracy_NB".(Α”ϋ8«“Τ‡ς.
+upython:S117""WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(΄Ϋƒ8Ίτρ.
+vpython:S117""XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(΄Ϋƒ8Ίτρ.
+zpython:S117"\Rename this local variable "accuracy_NB" to match the regular expression ^[_a-z][a-z0-9_]*$.(Α”ϋ8«“Τ‡ς.
