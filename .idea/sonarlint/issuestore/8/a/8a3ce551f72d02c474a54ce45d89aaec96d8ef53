@@ -1,7 +1,21 @@
 
-vpython:S117""XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ´Ûƒ8€ò‘ôñ.
-upython:S117""WRename this local variable "Y_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ´Ûƒ8€ò‘ôñ.
-Npython:S1481"/Remove the unused local variable "accuracy_NB".(Á˜”û8«“Ô‡ò.
-upython:S117""WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ´Ûƒ8ºôñ.
-vpython:S117""XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ´Ûƒ8ºôñ.
-zpython:S117"\Rename this local variable "accuracy_NB" to match the regular expression ^[_a-z][a-z0-9_]*$.(Á˜”û8«“Ô‡ò.
+wpython:S1542d"SRename function "Decision_Tree" to match the regular expression ^[a-z_][a-z0-9_]*$.(Æ«ÒÃûÿÿÿÿ8ªè®ò.
+{python:S117U"XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Æ¢®ò.
+{python:S117h"XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8÷õÉ®ò.
+{python:S117+"XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(—¹‰¹øÿÿÿÿ8ºôñ.
+{python:S117+"XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(—¹‰¹øÿÿÿÿ8€ò‘ôñ.
+~python:S117B"`Rename this local variable "LSVM_categories" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë–ö‡8©çÛ­ò.
+{python:S117A"XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Ş‰Û­ò.
+zpython:S117U"WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Æ¢®ò.
+zpython:S117A"WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Ş‰Û­ò.
+{python:S117U"XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Æ¢®ò.
+zpython:S117h"WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8÷õÉ®ò.
+kpython:S11928"LDefine a constant instead of duplicating this literal 'accuracy %s' 4 times.(‡ğÑë8ªÕ¡®ò.
+ipython:S1542="JRename function "LSVM" to match the regular expression ^[a-z_][a-z0-9_]*$.(öƒ8çğÕ­ò.
+xpython:S1542Q"TRename function "Log_Regression" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÆàÇÏúÿÿÿÿ8Ø¶Ö®ò.
+{python:S117h"XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8÷õÉ®ò.
+python:S117i"^Rename this local variable "CV_categories" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğªÅ¬şÿÿÿÿ8µçÌ®ò.
+~python:S117V"`Rename this local variable "logR_categories" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜ş–¯8ôÍ¦®ò.
+zpython:S117+"WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(—¹‰¹øÿÿÿÿ8ºôñ.
+zpython:S117+"WRename this local variable "Y_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(—¹‰¹øÿÿÿÿ8€ò‘ôñ.
+{python:S117A"XRename this local variable "Y_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(„¯¼Ñúÿÿÿÿ8Ş‰Û­ò.
